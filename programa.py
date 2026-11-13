@@ -2,9 +2,6 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
 
-# -------------------------------------------------------------
-# Lopez Nava Cristopher Manuel: Colores y nombre del equipo (Tema Agua)
-# -------------------------------------------------------------
 root = tk.Tk()
 root.title("Descuento")  # Título de ventana requerido[span_2](start_span)[span_2](end_span)
 root.geometry("780x680")
@@ -47,9 +44,7 @@ entry_descuento.grid(row=1, column=1, pady=5, padx=5)
 contador_id = 1
 
 
-# -------------------------------------------------------------
-# Martinez Caxnajoy Maria Jose: Aviso si faltan datos y validación de descuento
-# -------------------------------------------------------------
+
 def calcular_y_guardar():
     global contador_id
     p_str = entry_precio.get().strip()
@@ -120,9 +115,7 @@ def eliminar_registro():
         messagebox.showinfo("Éxito", "Registro eliminado correctamente.")
 
 
-# -------------------------------------------------------------
-# Ruiz Tellez Victor Uriel: Botón Limpiar
-# -------------------------------------------------------------
+
 def limpiar_campos():
     entry_precio.delete(0, tk.END)
     entry_descuento.delete(0, tk.END)
@@ -166,9 +159,7 @@ btn_limpiar = tk.Button(
 btn_limpiar.grid(row=0, column=2, padx=5)
 
 
-# -------------------------------------------------------------
-# Tovar Alva Mario Ian: Nombres del equipo y Tabla de visualización
-# -------------------------------------------------------------
+
 frame_tabla = tk.LabelFrame(
     root,
     text=" Historial de Cálculos (Memoria Local) ",
