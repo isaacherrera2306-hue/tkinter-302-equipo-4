@@ -1,4 +1,4 @@
-# Herrera Luz Oscar Isac: Sube el programa inicial
+3# Herrera Luz Oscar Isac: Sube el programa inicial
 import tkinter as tk
 from tkinter import messagebox, ttk
 
@@ -191,7 +191,7 @@ tabla.configure(yscrollcommand=scrollbar.set)
 tabla.pack(side="left", fill="both", expand=True)
 scrollbar.pack(side="right", fill="y")
 
-# Pie de página con nombres del equipo
+# Pie de página con nombres del equipo mario ian tovar alva modifico
 lbl_nombres = tk.Label(
     root,
     text="Equipo: Herrera | Lopez | Martinez | Ruiz | Tovar",
